@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overscroll-behavior: none;
+}
+
+div {
+    height: 100vh;
+}
+
+.section-1 {
+    background-color: #59c44e;
+}
+
+.image-section {
+    background-image: url('./assets/imgs/nature.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
