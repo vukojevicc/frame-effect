@@ -36,7 +36,6 @@ const progressProxyHandler = {
 
     imageSection.style.clipPath = `polygon(${currentPoints.join(', ')})`
 
-    console.log(scrollState.progress)
     return true
   }
 }
