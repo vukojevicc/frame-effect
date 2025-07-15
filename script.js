@@ -5,7 +5,6 @@ gsap.registerPlugin(ScrollTrigger)
 
 const scrollState = { progress: 0 }
 
-// Utility function to interpolate values based on scroll progress
 const interpolate = (start, end, scrollProgress) => start + (end - start) * scrollProgress
 const imageSection = document.querySelector('.image-section')
 
